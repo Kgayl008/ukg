@@ -1,0 +1,38 @@
+.box{
+    background-color: #F6C844;
+    position: absolute;
+    border-radius: 10px;
+    top: 147px;
+    right: 10px;
+    width: 75%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.box__title{
+    font-weight: 700;
+    font-size: 13px;
+    color: #292929;
+}
+.button__container{
+    display: flex;
+}
+.button1{
+    background-color: #F6C844;
+    border: 2px solid 205050;
+    color: #205050;
+    margin-right: 1rem;
+    border-radius: 4px;
+    
+}
+.button2{
+    border-radius: 4px;
+    background-color: #205050;
+    border: 2px solid 205050;
+    color: #ffff;
+    
+}
+.text{
+    font-size: 12px;
+}
