@@ -1,0 +1,10 @@
+@use "../../styles/partials/variables" as *;
+
+// .header {
+//     &__container {
+//     background-color: #205050;
+//     }
+// }
+.header__container{
+    background-color: red;
+}
