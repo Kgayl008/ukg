@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 import './App.scss';
 import { Routes, Route, BrowserRouter} from "react-router-dom";
 import Home from "./pages/Home/Home"
 import Nextpage from './pages/nextpage/nextpage';
 
+=======
+import "./App.scss";
+import Close from "../src/assets/icons/close.png";
+import { useState } from "react";
+>>>>>>> bb8753a4f0db829f0ae7f0228f25053f42e38d38
 
 function App() {
+  const [buttonText, setButtonText] = useState("Send Message");
 
+<<<<<<< HEAD
     return (
         <>
         <BrowserRouter>
@@ -16,6 +24,26 @@ function App() {
         </BrowserRouter>
         </>
     );
+=======
+  const handleClick = () => {
+    setButtonText("Review");
+  };
+
+  return (
+    <>
+      <div className="container">
+        <img src={Close} alt=" close x icon" className="icon" />
+        <p className="title">Tell us what’s happening?</p>
+        <form action="">
+          <textarea type="text" className="input"></textarea>
+          <button onClick={handleClick} className="button">
+            <span>{buttonText}</span>
+          </button>
+        </form>
+      </div>
+    </>
+  );
+>>>>>>> bb8753a4f0db829f0ae7f0228f25053f42e38d38
 }
 
 export default App;
